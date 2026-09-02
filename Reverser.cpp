@@ -16,7 +16,7 @@ int Reverser::powerOfTen(int exponent) {
 
 int Reverser::reverseDigit(int value) {
     if (value < 0) {
-        value = -value;
+        value = -1;
     }
 
     if (value < 10) {
